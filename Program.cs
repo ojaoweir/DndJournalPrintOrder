@@ -27,3 +27,9 @@ foreach(var i in finalOrder)
     Console.Write(i + ",");
 }
 Console.WriteLine();
+
+Console.WriteLine("För att få till korrekt i word ange följande inställningar när du gått in till print:");
+Console.WriteLine("- Välj anpassad utskriftsformat (default här är 'skriv ut alla sidor')");
+Console.WriteLine("- Mata in ordningen ovan i 'sidor'-fältet");
+Console.WriteLine("- Längst ned välj 2 sidor per ark");
+Console.WriteLine("- På samma ställe, gå till alternativet 'Anpassa till pappersstorlek' och välj 'A4'");
